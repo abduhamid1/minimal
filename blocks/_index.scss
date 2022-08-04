@@ -39,5 +39,61 @@ main {
         height: 600px;
         margin: 0 auto;
         position: relative;
+
+        .hero__text {
+            opacity: 1;
+            padding: 56px 56px 0 0;
+            background: white;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 500px;
+
+            h2 {
+               
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 50px;
+                /* or 100% */
+
+                letter-spacing: -0.446429px;
+
+                color: #33323D;
+                font-family: 'Ibarra Real Nova',
+                serif;
+            }
+
+            .hero__to__contackt {
+               justify-content: center;
+                align-items: center;
+                padding: 17px 0;
+                background: #203A4C;
+                margin-top: 53px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+                text-decoration: none;
+                position: relative;
+                img{
+                    left: 17px;
+                    position: absolute;
+                }
+            }
+        }
     }
 }
+// @media only screen and (max-width:992px){
+//     .hero__img{
+   
+        
+//     }
+// }
