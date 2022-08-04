@@ -50,7 +50,7 @@ main {
             width: 500px;
 
             h2 {
-               
+
                 font-family: 'Ibarra Real Nova';
                 font-style: normal;
                 font-weight: 700;
@@ -62,11 +62,11 @@ main {
 
                 color: #33323D;
                 font-family: 'Ibarra Real Nova',
-                serif;
+                    serif;
             }
 
             .hero__to__contackt {
-               justify-content: center;
+                justify-content: center;
                 align-items: center;
                 padding: 17px 0;
                 background: #203A4C;
@@ -83,17 +83,123 @@ main {
                 color: #FFFFFF;
                 text-decoration: none;
                 position: relative;
-                img{
+
+                img {
                     left: 17px;
                     position: absolute;
                 }
             }
         }
     }
+
+    .about {
+        .about__img__or__text {
+            max-width: 1015px;
+            padding: 150px 0;
+
+            .row {
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    max-width: 540px;
+                }
+            }
+
+            .text__about {
+                width: 350px;
+                position: relative;
+                left: 150px;
+                height: 600px;
+                align-items: center;
+
+                span:nth-child(1) {
+                    position: absolute;
+                    width: 350px;
+                    opacity: 0.5;
+                    height: 1px;
+                    background: #33323D;
+                    top: 0;
+                    margin: auto;
+                }
+
+                span:nth-child(2) {
+                    position: absolute;
+                    width: 350px;
+                    opacity: 0.5;
+                    height: 1px;
+                    background: #33323D;
+                    bottom: 0;
+                    margin: auto;
+                }
+
+                h2 {
+                    padding-top: 50px;
+                    position: relative;
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+
+                    letter-spacing: -0.357143px;
+
+                    color: #33323D;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* or 188% */
+
+
+                    color: #33323D;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+
+                .index__to__porfolio {
+                    padding: 17px 32px;
+                    border: 1px solid #33323D;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+
+                    color: #33323D;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
-// @media only screen and (max-width:992px){
-//     .hero__img{
-   
-        
-//     }
-// }
+
+@media only screen and (max-width:992px) {
+    .text__about {
+
+margin: 50px -150px;
+    }
+
+    .about__img {
+        width: 540px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .text__about {
+        margin-top: 50px;
+        margin-left: -150px;
+
+    }
+
+    .about__img {
+        width: 320px;
+    }
+}
