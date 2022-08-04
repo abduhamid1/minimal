@@ -129,7 +129,7 @@ main {
                     opacity: 0.5;
                     height: 1px;
                     background: #33323D;
-                    bottom: 170px;
+                    bottom: 0px;
                     margin: auto;
                 }
 
@@ -335,9 +335,27 @@ footer {
 
     .text__about {
         height: 400px;
-        margin: 50px -150px;
+        margin: 50px -200px;
 
     }
+          .text__about {
+            
+              span:nth-child(1) {
+
+              }
+
+              span:nth-child(2) {
+                  position: absolute;
+                  width: 350px;
+                  opacity: 0.5;
+                  height: 1px;
+                  background: #33323D;
+                 top: 200px;
+                  margin: auto;
+              }
+
+          
+          }
 
     .about__img {
         width: 540px;
