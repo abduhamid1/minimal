@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fav icons -->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google  foonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,8 +25,76 @@
     <title>mini-mal</title>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+<!-- bizning minimax prektimiz -->
+<!-- 
+        qadamlar !
+
+        1 => TERMINALDA  git clone linkni olib qo'yamiz
+        2 => TERMINALDA  birinchi bo'lib cd minimal deb prektga kirib olamiz
+        3 => TERMINALDA  agar biror bir narsanim o'zgartirsak yoki yangilik kiritsak git pull  qilamiz kiyin   git add .   kiyin   git commit -m "commitizni kiritasiz" kiyin git push qilasiz  hammasi bo'ladi oke!
+    
+    -->
 
 <body>
+    <!-- header manashuni hamma menularga copi pass qilaslar bir hil bo'ladi -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid d-flex justify-content-between">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.svg" alt="logo mini mak ">
+                    </a>
+                    <div class="nav__link">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page" href="/">menu</a>
+                                <a class="nav-link" href="./portfolio.html">Porfolio</a>
+                                <a class="nav-link active" href="./contact-me.html">Contact-mi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- tepadagini manashu yergacha copi  qilaslar -->
+
+    <!-- mana bu footer ni kopi qilib boshqa oage ga tashaladi -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row justify-content-between w-100 align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-between align-items-center">
+                    <a href="/">
+                        <img src="./images/footer__logo.png" alt="ff">
+                    </a>
+                    <div class="link__footer d-flex justify-content-between w-75 ">
+                        <a href="#index" class="text-light"> HOME</a>
+                        <a href="#index" class="text-light"> PORTFOLIO</a>
+                        <a href="#index " class="text-light"> CONTACT ME</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="webs  justify-content-between">
+                        <a href="#">
+                            <i class="fa-brands fa-github text-white"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitch"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- manashu yergacha -->
 
 </body>
 

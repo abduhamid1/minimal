@@ -77,7 +77,6 @@ main .hero__img .hero__text .hero__to__contackt img {
   left: 17px;
   position: absolute;
 }
-<<<<<<< HEAD
 main .about .about__img__or__text {
   max-width: 1015px;
   padding: 150px 0;
@@ -140,8 +139,124 @@ main .about .about__img__or__text .text__about p {
 main .about .about__img__or__text .text__about .index__to__porfolio {
   padding: 17px 32px;
   border: 1px solid #33323D;
-=======
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+  text-decoration: none;
+}
+main .interesting .row {
+  align-items: center;
+  text-align: end;
+  margin: 0 auto;
+  justify-content: center;
+}
+main .interesting h2 {
+  text-align: center !important;
+  display: block;
+  width: 350px;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  /* or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+main .interesting .span {
+  width: 70%;
+  height: 1px;
+  background: #33323D;
+  margin: auto;
+  display: inline-block;
+}
+main .interesting .index__to__contaktga {
+  padding: 17px 32px;
+  border: 1px solid #33323D;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+  text-decoration: none;
+}
 
+footer {
+  margin-top: 150px;
+  padding: 24px 0;
+}
+footer .nav-link {
+  color: #FFFFFF !important;
+}
+footer .link__footer a {
+  text-decoration: none;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+footer .webs {
+  float: right;
+}
+footer .webs a {
+  text-decoration: none;
+}
+footer .webs a i {
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .text__about {
+    margin: 50px -150px;
+  }
+  .about__img {
+    width: 540px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .text__about {
+    margin-top: 50px;
+    margin-left: -150px;
+  }
+  .about__img {
+    width: 320px;
+    margin: auto;
+  }
+  .text__about {
+    margin-left: -100px;
+  }
+  .interesting {
+    margin-top: -100px;
+    align-items: center;
+  }
+  .interesting h2 {
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+  }
+  .index__to__contaktga {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .webs {
+    margin-top: 20px;
+    float: left !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -202,7 +317,6 @@ img {
   left: 72.19%;
   right: 23.94%;
   top: calc(50% - 7px);
->>>>>>> 1f2a6f598b6e55fae04e8a5e2324a7362db6c473
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
@@ -211,27 +325,6 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #33323D;
-<<<<<<< HEAD
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 992px) {
-  .text__about {
-    margin: 50px -150px;
-  }
-  .about__img {
-    width: 540px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .text__about {
-    margin-top: 50px;
-    margin-left: -150px;
-  }
-  .about__img {
-    width: 320px;
-  }
-=======
 }
 
 .liink__100 {
@@ -410,5 +503,23 @@ img {
 .list__11 {
   list-style: none;
   margin-left: 30px;
->>>>>>> 1f2a6f598b6e55fae04e8a5e2324a7362db6c473
+}
+
+footer {
+  margin-top: 150px;
+  padding: 24px 0;
+}
+footer .nav-link {
+  color: #FFFFFF !important;
+}
+footer .link__footer a {
+  text-decoration: none;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

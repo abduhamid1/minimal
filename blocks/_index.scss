@@ -180,18 +180,107 @@ main {
             }
         }
     }
+
+    .interesting {
+        .row {
+            align-items: center;
+            text-align: end;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        h2 {
+            text-align: center !important;
+            display: block;
+            width: 350px;
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+
+            letter-spacing: -0.357143px;
+
+            color: #33323D;
+        }
+
+        .span {
+            width: 70%;
+            height: 1px;
+            background: #33323D;
+            margin: auto;
+            display: inline-block;
+        }
+
+        .index__to__contaktga {
+            padding: 17px 32px;
+            border: 1px solid #33323D;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #33323D;
+            text-decoration: none;
+            // display: inline-block;
+
+        }
+
+
+    }
+}
+
+footer {
+    margin-top: 150px;
+    padding: 24px 0;
+
+    .nav-link {
+        color: #FFFFFF !important;
+    }
+
+    .link__footer a {
+        text-decoration: none;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .webs {
+        float: right;
+
+        a {
+            text-decoration: none;
+
+            i {
+                color: #FFFFFF;
+                margin-left: 15px;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width:992px) {
     .text__about {
 
-margin: 50px -150px;
+        margin: 50px -150px;
     }
 
     .about__img {
         width: 540px;
     }
+
 }
+
 @media only screen and (max-width:576px) {
     .text__about {
         margin-top: 50px;
@@ -201,5 +290,30 @@ margin: 50px -150px;
 
     .about__img {
         width: 320px;
+        margin: auto;
+    }
+    .text__about{
+        margin-left: -100px;
+    }
+
+    .interesting {
+        margin-top: -100px;  
+        align-items: center;
+          h2 {
+        text-align: center;
+        width: 100%;
+        margin-left: 30px;
+    }
+    }
+
+
+    .index__to__contaktga {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .webs {
+        margin-top: 20px;
+        float: left !important;
     }
 }
