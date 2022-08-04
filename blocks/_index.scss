@@ -129,7 +129,7 @@ main {
                     opacity: 0.5;
                     height: 1px;
                     background: #33323D;
-                    bottom: 0;
+                    bottom: 170px;
                     margin: auto;
                 }
 
@@ -205,13 +205,7 @@ main {
             color: #33323D;
         }
 
-        .span {
-            width: 70%;
-            height: 1px;
-            background: #33323D;
-            margin: auto;
-            display: inline-block;
-        }
+
 
         .index__to__contaktga {
             padding: 17px 32px;
@@ -270,40 +264,187 @@ footer {
 }
 
 @media only screen and (max-width:992px) {
-    .text__about {
 
+    .hero__text {
+        opacity: 1;
+        padding: 56px 56px 0 0;
+        background: white;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100% !important;
+        height: 100%;
+
+        h2 {
+            text-align: center;
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            /* or 100% */
+
+            letter-spacing: -0.446429px;
+
+            color: #33323D;
+            font-family: 'Ibarra Real Nova',
+                serif;
+        }
+
+        .hero__to__contackt {
+            justify-content: center;
+            align-items: center;
+            padding: 17px 0;
+            background: #203A4C;
+            margin-top: 53px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+            text-decoration: none;
+            position: relative;
+
+            img {
+                left: 17px;
+                position: absolute;
+            }
+        }
+    }
+
+    .about {
+        position: relative;
+        top: -300px;
+        bottom: -300px;
+        // margin-top: -250px !important;
+    }
+
+    .interesting {
+        position: relative;
+        top: -500px;
+    }
+
+    .about__img__or__text {
+        padding-top: 50px !important;
+    }
+
+    .text__about {
+        height: 400px;
         margin: 50px -150px;
+
     }
 
     .about__img {
         width: 540px;
     }
 
+    .about__img {
+
+        margin: auto;
+    }
+
+    .text__about {
+        margin-left: 50px;
+        width: 540px;
+
+        p {
+            width: 540px;
+        }
+    }
+
+    footer {
+        position: relative;
+        top: -570px;
+    }
+
+
 }
 
 @media only screen and (max-width:576px) {
+    .hero__text {
+        opacity: 1;
+        padding: 56px 56px 0 0;
+        background: white;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+
+        h2 {
+
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            /* or 100% */
+
+            letter-spacing: -0.446429px;
+
+            color: #33323D;
+            font-family: 'Ibarra Real Nova',
+                serif;
+        }
+
+        .hero__to__contackt {
+            justify-content: center;
+            align-items: center;
+            padding: 17px 0;
+            background: #203A4C;
+            margin-top: 53px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+            text-decoration: none;
+            position: relative;
+
+            img {
+                left: 17px;
+                position: absolute;
+            }
+        }
+    }
+
     .text__about {
         margin-top: 50px;
-        margin-left: -150px;
+        margin-left: -70px;
 
+    }
+    .text__about span{
+        display: none;
     }
 
     .about__img {
-        width: 320px;
-        margin: auto;
+        width: 400px;
+        margin: 50px auto;
     }
-    .text__about{
-        margin-left: -100px;
+
+    .text__about p {
+        width: 350px;
     }
 
     .interesting {
-        margin-top: -100px;  
+        margin-top: -60px;
         align-items: center;
-          h2 {
-        text-align: center;
-        width: 100%;
-        margin-left: 30px;
-    }
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin-left: 30px;
+        }
     }
 
 
@@ -312,6 +453,7 @@ footer {
         justify-content: center;
         margin-top: 50px;
     }
+
     .webs {
         margin-top: 20px;
         float: left !important;
