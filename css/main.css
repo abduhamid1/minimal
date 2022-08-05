@@ -8,6 +8,7 @@ header .container-fluid {
   height: 120px;
   align-items: center;
 }
+
 header .container-fluid .nav__link .active {
   font-weight: 400;
   font-size: 12px;
@@ -16,6 +17,7 @@ header .container-fluid .nav__link .active {
   text-transform: uppercase;
   color: #5FB4A2 !important;
 }
+
 header .container-fluid .nav__link .nav-link {
   font-weight: 400;
   font-size: 12px;
@@ -35,6 +37,7 @@ main .hero__img {
   margin: 0 auto;
   position: relative;
 }
+
 main .hero__img .hero__text {
   opacity: 1;
   padding: 56px 56px 0 0;
@@ -44,6 +47,7 @@ main .hero__img .hero__text {
   bottom: 0;
   width: 500px;
 }
+
 main .hero__img .hero__text h2 {
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -55,6 +59,7 @@ main .hero__img .hero__text h2 {
   color: #33323D;
   font-family: "Ibarra Real Nova", serif;
 }
+
 main .hero__img .hero__text .hero__to__contackt {
   justify-content: center;
   align-items: center;
@@ -73,21 +78,26 @@ main .hero__img .hero__text .hero__to__contackt {
   text-decoration: none;
   position: relative;
 }
+
 main .hero__img .hero__text .hero__to__contackt img {
   left: 17px;
   position: absolute;
 }
+
 main .about .about__img__or__text {
   max-width: 1015px;
   padding: 150px 0;
 }
+
 main .about .about__img__or__text .row {
   justify-content: space-between;
   align-items: center;
 }
+
 main .about .about__img__or__text .row img {
   max-width: 540px;
 }
+
 main .about .about__img__or__text .text__about {
   width: 350px;
   position: relative;
@@ -95,6 +105,7 @@ main .about .about__img__or__text .text__about {
   height: 600px;
   align-items: center;
 }
+
 main .about .about__img__or__text .text__about span:nth-child(1) {
   position: absolute;
   width: 350px;
@@ -104,6 +115,7 @@ main .about .about__img__or__text .text__about span:nth-child(1) {
   top: 0;
   margin: auto;
 }
+
 main .about .about__img__or__text .text__about span:nth-child(2) {
   position: absolute;
   width: 350px;
@@ -113,6 +125,7 @@ main .about .about__img__or__text .text__about span:nth-child(2) {
   bottom: 0px;
   margin: auto;
 }
+
 main .about .about__img__or__text .text__about h2 {
   padding-top: 50px;
   position: relative;
@@ -125,6 +138,7 @@ main .about .about__img__or__text .text__about h2 {
   letter-spacing: -0.357143px;
   color: #33323D;
 }
+
 main .about .about__img__or__text .text__about p {
   font-family: "Public Sans";
   font-style: normal;
@@ -136,6 +150,7 @@ main .about .about__img__or__text .text__about p {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
 main .about .about__img__or__text .text__about .index__to__porfolio {
   padding: 17px 32px;
   border: 1px solid #33323D;
@@ -149,12 +164,14 @@ main .about .about__img__or__text .text__about .index__to__porfolio {
   color: #33323D;
   text-decoration: none;
 }
+
 main .interesting .row {
   align-items: center;
   text-align: end;
   margin: 0 auto;
   justify-content: center;
 }
+
 main .interesting h2 {
   text-align: center !important;
   display: block;
@@ -168,6 +185,7 @@ main .interesting h2 {
   letter-spacing: -0.357143px;
   color: #33323D;
 }
+
 main .interesting .index__to__contaktga {
   padding: 17px 32px;
   border: 1px solid #33323D;
@@ -186,9 +204,11 @@ footer {
   margin-top: 150px;
   padding: 24px 0;
 }
+
 footer .nav-link {
   color: #FFFFFF !important;
 }
+
 footer .link__footer a {
   text-decoration: none;
   font-family: "Public Sans";
@@ -200,12 +220,15 @@ footer .link__footer a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
 footer .webs {
   float: right;
 }
+
 footer .webs a {
   text-decoration: none;
 }
+
 footer .webs a i {
   color: #FFFFFF;
   margin-left: 15px;
@@ -222,6 +245,7 @@ footer .webs a i {
     width: 100% !important;
     height: 100%;
   }
+
   .hero__text h2 {
     text-align: center;
     font-family: "Ibarra Real Nova";
@@ -234,6 +258,7 @@ footer .webs a i {
     color: #33323D;
     font-family: "Ibarra Real Nova", serif;
   }
+
   .hero__text .hero__to__contackt {
     justify-content: center;
     align-items: center;
@@ -252,26 +277,32 @@ footer .webs a i {
     text-decoration: none;
     position: relative;
   }
+
   .hero__text .hero__to__contackt img {
     left: 17px;
     position: absolute;
   }
+
   .about {
     position: relative;
     top: -300px;
     bottom: -300px;
   }
+
   .interesting {
     position: relative;
     top: -500px;
   }
+
   .about__img__or__text {
     padding-top: 50px !important;
   }
+
   .text__about {
     height: 400px;
     margin: 50px -200px;
   }
+
   .text__about span:nth-child(2) {
     position: absolute;
     width: 350px;
@@ -281,24 +312,30 @@ footer .webs a i {
     top: 200px;
     margin: auto;
   }
+
   .about__img {
     width: 540px;
   }
+
   .about__img {
     margin: auto;
   }
+
   .text__about {
     margin-left: 50px;
     width: 540px;
   }
+
   .text__about p {
     width: 540px;
   }
+
   footer {
     position: relative;
     top: -570px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .hero__text {
     opacity: 1;
@@ -310,6 +347,7 @@ footer .webs a i {
     width: 100%;
     height: 100%;
   }
+
   .hero__text h2 {
     font-family: "Ibarra Real Nova";
     font-style: normal;
@@ -321,6 +359,7 @@ footer .webs a i {
     color: #33323D;
     font-family: "Ibarra Real Nova", serif;
   }
+
   .hero__text .hero__to__contackt {
     justify-content: center;
     align-items: center;
@@ -339,43 +378,53 @@ footer .webs a i {
     text-decoration: none;
     position: relative;
   }
+
   .hero__text .hero__to__contackt img {
     left: 17px;
     position: absolute;
   }
+
   .text__about {
     margin-top: 50px;
     margin-left: -70px;
   }
+
   .text__about span {
     display: none;
   }
+
   .about__img {
     width: 400px;
     margin: 50px auto;
   }
+
   .text__about p {
     width: 350px;
   }
+
   .interesting {
     margin-top: -60px;
     align-items: center;
   }
+
   .interesting h2 {
     text-align: center;
     width: 100%;
     margin-left: 30px;
   }
+
   .index__to__contaktga {
     display: flex;
     justify-content: center;
     margin-top: 50px;
   }
+
   .webs {
     margin-top: 20px;
     float: left !important;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -628,9 +677,11 @@ footer {
   margin-top: 150px;
   padding: 24px 0;
 }
+
 footer .nav-link {
   color: #FFFFFF !important;
 }
+
 footer .link__footer a {
   text-decoration: none;
   font-family: "Public Sans";
