@@ -294,10 +294,6 @@ footer .webs a i {
   .text__about p {
     width: 540px;
   }
-  footer {
-    position: relative;
-    top: -570px;
-  }
 }
 @media only screen and (max-width: 576px) {
   .hero__text {
@@ -376,13 +372,6 @@ footer .webs a i {
     float: left !important;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
 html {
   box-sizing: border-box;
   height: 100%;
@@ -413,13 +402,6 @@ img {
   display: block;
 }
 
-.container {
-  max-width: 1220px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .ul {
   list-style-type: none;
 }
@@ -430,12 +412,8 @@ img {
   justify-content: space-between;
 }
 
-.liink {
+.can__div__1 .link {
   text-decoration: none;
-  height: 14px;
-  left: 72.19%;
-  right: 23.94%;
-  top: calc(50% - 7px);
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
@@ -444,6 +422,8 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #33323D;
+  border: 1px solid #33323D;
+  padding: 17px 32px;
 }
 
 .liink__100 {
@@ -470,6 +450,11 @@ img {
 
 .liiist {
   margin-left: 50px;
+}
+
+.pro_a__10_ .link {
+  padding: 17px 32px;
+  border: 1px solid #33323D;
 }
 
 .can__div {
