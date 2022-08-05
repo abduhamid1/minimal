@@ -294,6 +294,20 @@ footer .webs a i {
   .text__about p {
     width: 540px;
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> bdf94fb3b348a270f594ccaf3ae317860842f94b
+
+  footer {
+    position: relative;
+    top: -570px;
+  }
+=======
+>>>>>>> 5c3f15993047a5cb5ea7e0a62e71ee87b8181f3a
+>>>>>>> 2ca0db731c5c1ec0bb3738a11b21e55cba4b6525
 }
 @media only screen and (max-width: 576px) {
   .hero__text {
@@ -372,6 +386,23 @@ footer .webs a i {
     float: left !important;
   }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> bdf94fb3b348a270f594ccaf3ae317860842f94b
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+=======
+>>>>>>> 5c3f15993047a5cb5ea7e0a62e71ee87b8181f3a
+>>>>>>> 2ca0db731c5c1ec0bb3738a11b21e55cba4b6525
 html {
   box-sizing: border-box;
   height: 100%;
@@ -628,9 +659,146 @@ footer .link__footer a {
   color: #FFFFFF;
 }
 
+/* manager */
+
 .container__body {
-  background: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
 }
+
+
+
+.container__body__left__inside img {
+  padding: 48px;
+}
+
+.container__body__left__inside h4 {
+  padding: 15px;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+
+  color: #33323D;
+}
+
+.container__body__left__inside h5 {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #5FB4A2;
+}
+
+
+
+.container__body__left__inside a {
+  position: relative;
+  top: 20px;
+  border: 1px solid black;
+  padding: 17px 36px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+
+}
+
+.container__body__left__inside p {
+  width: 350px;
+  height: 150px;
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+
+
+  color: #33323D;
+}
+
+.container__body__right {
+  margin-left: 125px;
+}
+
+.container__body__right h4 {
+  margin: 30px;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #33323D;
+}
+
+.container__body__right p {
+  width: 635px;
+  height: 180px;
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+
+
+  color: #33323D;
+
+}
+
+.fylo_bookmark {
+  margin-top: 100px;
+}
+
+.bookmark-in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fylo {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.fylo img {
+  position: relative;
+  right: 50px;
+  top: -50px;
+}
+
+.bookmark {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.bookmark img {
+  position: relative;
+  left: 140px;
+  top: -50px;
+}
+
+.interested {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interested a {
+  padding: 17px 31px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+}
+
+/* manager */
 
 .insure__top__img {
   margin-top: 100px;
@@ -644,6 +812,7 @@ footer .link__footer a {
 .insure__sidbar {
   margin-top: 110px;
 }
+
 .insure__sidbar h2 {
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -654,6 +823,7 @@ footer .link__footer a {
   letter-spacing: -0.357143px;
   color: #33323D;
 }
+
 .insure__sidbar p {
   font-family: "Public Sans";
   font-style: normal;
@@ -666,6 +836,7 @@ footer .link__footer a {
   opacity: 0.8;
   margin-top: 30px;
 }
+
 .insure__sidbar span {
   font-family: "Public Sans";
   font-style: normal;
@@ -677,6 +848,7 @@ footer .link__footer a {
   display: block;
   color: #5FB4A2;
 }
+
 .insure__sidbar a {
   padding: 17px 32px;
   display: inline-block;
@@ -692,6 +864,7 @@ footer .link__footer a {
   color: #33323D;
   text-decoration: none;
 }
+
 .insure__sidbar .asside h2 {
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -702,6 +875,7 @@ footer .link__footer a {
   letter-spacing: -0.285714px;
   color: #33323D;
 }
+
 .insure__sidbar .asside p {
   font-family: "Public Sans";
   font-style: normal;
@@ -713,6 +887,10 @@ footer .link__footer a {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+<<<<<<< HEAD
+
+/*# sourceMappingURL=main.css.map */
+=======
 .insure__sidbar .asside h3 {
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -723,3 +901,4 @@ footer .link__footer a {
   letter-spacing: -0.285714px;
   color: #33323D;
 }/*# sourceMappingURL=main.css.map */
+>>>>>>> bdf94fb3b348a270f594ccaf3ae317860842f94b
