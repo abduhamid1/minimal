@@ -329,11 +329,14 @@ footer .webs a i {
   .text__about p {
     width: 540px;
   }
+<<<<<<< HEAD
 
   footer {
     position: relative;
     top: -570px;
   }
+=======
+>>>>>>> 5c3f15993047a5cb5ea7e0a62e71ee87b8181f3a
 }
 
 @media only screen and (max-width: 576px) {
@@ -424,6 +427,7 @@ footer .webs a i {
     float: left !important;
   }
 }
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -432,6 +436,8 @@ footer .webs a i {
   font-family: sans-serif;
 }
 
+=======
+>>>>>>> 5c3f15993047a5cb5ea7e0a62e71ee87b8181f3a
 html {
   box-sizing: border-box;
   height: 100%;
@@ -462,13 +468,6 @@ img {
   display: block;
 }
 
-.container {
-  max-width: 1220px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .ul {
   list-style-type: none;
 }
@@ -479,12 +478,8 @@ img {
   justify-content: space-between;
 }
 
-.liink {
+.can__div__1 .link {
   text-decoration: none;
-  height: 14px;
-  left: 72.19%;
-  right: 23.94%;
-  top: calc(50% - 7px);
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
@@ -493,6 +488,8 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #33323D;
+  border: 1px solid #33323D;
+  padding: 17px 32px;
 }
 
 .liink__100 {
@@ -519,6 +516,11 @@ img {
 
 .liiist {
   margin-left: 50px;
+}
+
+.pro_a__10_ .link {
+  padding: 17px 32px;
+  border: 1px solid #33323D;
 }
 
 .can__div {
