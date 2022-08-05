@@ -706,4 +706,25 @@ footer .link__footer a {
   text-transform: uppercase;
   color: #33323D;
   text-decoration: none;
+}
+.insure__sidbar .asside h2 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+  letter-spacing: -0.285714px;
+  color: #33323D;
+}
+.insure__sidbar .asside p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */
