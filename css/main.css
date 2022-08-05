@@ -643,6 +643,10 @@ footer .link__footer a {
   color: #FFFFFF;
 }
 
+.container__body {
+  background: black;
+}
+
 .insure__top__img {
   margin-top: 100px;
   background-image: url(../images/insure__top__img.jpg);
